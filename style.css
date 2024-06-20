@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: bebas neue;
+  background: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+body .normal {
+  --dark: #242375;
+  --light: #b2afff;
+}
+
+.normal {
+  --dark: #242375;
+  --light: #b2afff;
+}
+
+.change-clr {
+  --dark: #0e192d;
+  --light: #ff6d18;
+}
+
+.change-clr-two {
+  --dark: #525055;
+  --light: #a4a1aa;
+}
+
+.change-clr-three {
+  --dark: #ff0060;
+  --light: #ff9eed;
+}
+
+header #heading {
+  color: var(--light);
+  font-weight: 400;
+  font-size: 50px;
+  margin: 40px 0 40px 0;
+}
+
+.container {
+  width: 460px;
+  height: 460px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.btns {
+  height: 150px;
+  width: 150px;
+  background: var(--light);
+  outline: none;
+  border: 2px solid var(--dark);
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark);
+  font-size: 120px;
+  cursor: pointer;
+}
+
+footer #restart-btn {
+  outline: none;
+  border: none;
+  font-family: bebas neue;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 25px;
+  height: 30px;
+  width: 90px;
+  background: var(--light);
+  color: var(--dark);
+  margin: 93px 1px 0 0;
+  cursor: pointer;
+}
+
+footer #clr-change {
+  outline: none;
+  border: none;
+  font-family: bebas neue;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 25px;
+  height: 30px;
+  width: 160px;
+  background: var(--light);
+  color: var(--dark);
+  margin: 93px 0 0 1px;
+  cursor: pointer;
+}
