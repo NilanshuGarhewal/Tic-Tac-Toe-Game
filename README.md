@@ -26,7 +26,7 @@ A simple yet interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 3. Enjoy playing Tic-Tac-Toe!
 
 ## Screenshots
-(![Tic-Tac-Toe-Game Image](https://github.com/user-attachments/assets/da89d711-4f60-479d-a152-e4088c382010)
+![Tic-Tac-Toe-Game Image](https://github.com/user-attachments/assets/da89d711-4f60-479d-a152-e4088c382010)
 
 ## Future Improvements
 - Add an AI opponent for single-player mode.
